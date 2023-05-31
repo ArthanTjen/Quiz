@@ -14,8 +14,8 @@ struct ContentView: View {
             questionText: "What is the capital of France?",
             option1: "London",
             option2: "Paris",
-            option3: "Madrid",
-            option4: "Berlin"
+            option3: "Singapore",
+            option4: "Merlin"
         ),
         QuizQuestion(
             questionText: "Which planet is known as the Red Planet?",
@@ -37,7 +37,7 @@ struct ContentView: View {
             option2: "Leonardo da Vinci",
             option3: "Vincent van Gogh",
             option4: "Michelangelo"
-        )
+        ), QuizQuestion(questionText: "Are you gae", option1: "yes", option2: "Ofc", option3: "Hell nah", option4: "pi")
     ]
     @State private var showAlert = false
     @State private var wasRight = false
